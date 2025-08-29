@@ -24,4 +24,6 @@ It demonstrates a simple RISC-style CPU with an ALU, control unit, registers, an
    ```bash
    git clone https://github.com/yourusername/microprocessor-logisim.git
    cd microprocessor-logisim
+3. For any of the .circ files, open and test the vector files
+4. For the main CPU design, open and test the vector file to see everything running as expected
 
