@@ -25,5 +25,15 @@ It demonstrates a simple RISC-style CPU with an ALU, control unit, registers, an
    git clone https://github.com/yourusername/microprocessor-logisim.git
    cd microprocessor-logisim
 3. For any of the .circ files, open and test the vector files
-4. For the main CPU design, open and test the vector file to see everything running as expected
+4. For the main CPU design, the ROM file is filled with specific instruction that are executed sequentially
+    - at 0x00000000  NOP
+    - at 0x00000004  lw $t0 0(zero)
+    - at 0x00000008 lw $t1, 1($zero)
+    - at 0x0000000C beq $to, $t1, 3
+    - at 0x00000010 add $t0, $t0 $to
+    - at 0x00000014 sw $sw $t0, 0($zero)
+    - at 0x00000018 j 0x00000000
+    - at 0x0000001C add $t2, $t0, $t1
+    - at 0x00000020 sw $t2, 2 ($zero)
+6. Toggle clk to see the expected results
 
