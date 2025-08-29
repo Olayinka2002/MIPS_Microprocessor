@@ -1,0 +1,10 @@
+#Truth table for a full adder
+A1 B Cin  SUM  CARRY_OUT
+0  0  0   0    0
+0  0  1   1    0
+0  1  0   1    0
+0  1  1   0    1
+1  0  0   1    0
+1  0  1   0    1
+1  1  0   0    1
+1  1  1   1    1

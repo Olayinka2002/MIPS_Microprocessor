@@ -1,0 +1,13 @@
+# Aaron Nanas
+# ECE 422L
+# Lab 10: Program Counter and Control Unit
+# Test Vector for ALU Control Unit
+ALUOp[2]    Funct[6]    ALUControl[4]
+00          000000      0010
+00          000000      0010
+01          000000      0110
+10          100000      0010
+10          100010      0110
+10          100100      0000
+10          100101      0001
+10          101010      0111

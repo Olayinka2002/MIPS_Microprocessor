@@ -1,0 +1,10 @@
+# Aaron Nanas
+# ECE 422L
+# Lab 10: Program Counter and Control Unit
+# Test Vector for Main Control Unit
+OPCODE[6]   RegDst  ALUSrc  MemtoReg    RegWrite    MemRead     MemWrite    Branch  ALUOp1  ALUOp0  Jump
+000000      1       0       0           1           0           0           0       1       0       0
+100011      0       1       1           1           1           0           0       0       0       0
+101011      0       1       0           0           0           1           0       0       0       0
+000100      0       0       0           0           0           0           1       0       1       0
+000010      0       0       0           0           0           0           0       0       0       1

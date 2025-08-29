@@ -1,0 +1,26 @@
+#Olayinka Olowookere
+#ECE 422L
+#Lab 8: ALU Design
+#Test Vector for Four_Bit_ALU
+
+A3  A2  A1  A0  B3  B2  B1  B0  ALU_CONTROL[4]  R3  R2  R1  R0  C_OUT   
+0   0   0   0   0   0   0   0       0           0   0   0   0   0       #DISPLAY AND RESULT
+0   0   1   1   0   0   1   1       0           0   0   1   1   0       #DISPLAY AND RESULT
+1   1   1   1   1   1   1   1       0           1   1   1   1   1       #DISPLAY AND RESULT
+1   1   1   1   0   0   0   1       0           0   0   0   1   1       #DISPLAY AND RESULT
+
+1   1   1   1   0   0   0   0       1           1   1   1   1   0       #DISPLAY OR RESULT
+0   0   0   0   1   1   1   1       1           1   1   1   1   0       #DISPLAY OR RESULT
+0   0   0   0   0   0   0   0       1           0   0   0   0   0       #DISPLAY OR RESULT
+0   0   0   1   0   0   0   1       1           0   0   0   1   0       #DISPLAY OR RESULT
+
+0   0   0   1   0   0   0   1       2           0   0   1   0   0       #DISPLAY ADD RESULT  
+0   1   0   0   0   1   0   0       2           1   0   0   0   0       #DISPLAY ADD RESULT 
+1   1   1   1   0   0   0   0       2           1   1   1   1   0       #DISPLAY ADD RESULT 
+1   1   1   1   0   0   0   1       2           0   0   0   0   1       #DISPLAY ADD RESULT 
+1   1   1   1   1   1   1   1       2           1   1   1   0   1       #DISPLAY ADD RESULT 
+
+1   0   0   0   0   1   0   0       6           0   1   0   0   1       #DISPLAY SUB RESULT 
+0   1   1   1   0   1   1   1       6           0   0   0   0   1       #DISPLAY SUB RESULT 
+1   1   1   1   0   1   1   1       6           1   0   0   0   1       #DISPLAY SUB RESULT  
+1   0   0   1   0   1   1   1       6           0   0   1   0   1       #DISPLAY SUB RESULT   

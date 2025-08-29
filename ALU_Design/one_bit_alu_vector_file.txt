@@ -1,0 +1,22 @@
+#Olayinka Olowookere
+#ECE 422L
+#Lab 8: ALU Design
+#Test Vector for One_Bit_ALU
+
+A   B   CIN     A_INVERT   B_INVERT    LESS    ALU_CONTROL[2]     ALU_RESULT          C_OUT
+0   0   0           0         0          0           00              0              	0          #Display AND ALU_RESULT
+1   1   0           0         0          0           00              1              	1          #Display AND ALU_RESULT
+1   1   0           1         1          0           00              0              	0          #Display AND ALU_RESULT
+
+0   1   0           0         0          0           01              1              	0          #Display OR ALU_RESULT
+0   0   0           1         0          0           01              1              	0          #Display OR RESULT
+1   1   0           0         0          0           01              1              	1          #Display OR RESULT
+
+0   0   0           0         0          0           10              0              	0          #Display ADDER RESULT
+0   0   1           0         0          0           10              1              	0          #Display ADDER RESULT   
+1   0   0           0         0          0           10              1              	0          #Display ADDER RESULT
+0   1   0           0         0          0           10              1              	0          #Display ADDER RESULT
+1   1   1           0         0          0           10              1              	1          #Display ADDER RESULT
+
+0   0   0           0         0          0           11              0              	0          #Display LESS RESULT
+0   0   0           0         0          1           11              1              	0          #Display LESS RESULT
