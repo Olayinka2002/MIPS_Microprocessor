@@ -37,3 +37,10 @@ It demonstrates a simple RISC-style CPU with an ALU, control unit, registers, an
     - at 0x00000020 sw $t2, 2 ($zero)
 6. Toggle clk to see the expected results
 
+## 🛠 Skills Demonstrated
+- Digital design using Logisim Evolution
+- CPU architecture and datapath design
+- Instruction Set Architecture (ISA) implementation
+- Hardware debugging and test vector creation
+- Understanding of single-cycle processor operation
+
