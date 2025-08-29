@@ -11,7 +11,7 @@ It demonstrates a simple RISC-style CPU with an ALU, control unit, registers, an
 - Single-cycle instruction execution
 - Separate `ALU`, `Control Unit`, `Register File`, and `Memory` circuits
 
-## Repository Structure
+## Repository Structure(Each folder include the design along with test results)
 - `Full_Adder`. This was the first design in the project
 - `ALU Design  ` Then the one, four and eventually 32 bit alu design followed
 - `Register` Next was the 1, 4 and 32 bit register design
